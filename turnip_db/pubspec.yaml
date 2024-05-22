@@ -1,0 +1,15 @@
+name: turnip_db
+description: An empty conduit application.
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  conduit: ^5.0.1
+  conduit_core: ^5.0.1
+
+dev_dependencies:
+  test: ^1.25.2
+  conduit_test: ^5.0.1
