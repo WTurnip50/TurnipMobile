@@ -1,19 +1,14 @@
-import 'package:flutter/cupertino.dart';
-import 'package:turnip_mobile/screens/home.dart';
+import 'package:flutter/material.dart';
+import 'package:turnip_mobile/screens/login.dart';
 
 class TurnipApp extends StatelessWidget {
   const TurnipApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const CupertinoApp(
+    return const MaterialApp(
       title: 'Turnip mobile',
-      home: HomeTurnip(),
-      theme: CupertinoThemeData(
-        primaryColor: CupertinoColors.systemBlue,
-        brightness: Brightness.light
-      ),
-      debugShowCheckedModeBanner: false,
+      home: LoginTurnip(),
     );
   }
 }
